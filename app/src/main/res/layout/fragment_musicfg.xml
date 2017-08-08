@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.lenve.myviewpagercards2.MainActivity">
+
+
+    <com.quark.wificontrol.ui.widget.SlideOneShowView
+        android:id="@+id/slideshowView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"></com.quark.wificontrol.ui.widget.SlideOneShowView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/slideshowView"
+        android:clipToPadding="false"
+        android:paddingBottom="30dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:paddingTop="20dp"></android.support.v4.view.ViewPager>
+</RelativeLayout>

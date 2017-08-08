@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_header"/>
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/one"-->
+        <!--android:layout_marginTop="@dimen/space_10"-->
+        <!--android:layout_below="@+id/head"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="@dimen/space_10"-->
+        <!--android:layout_marginRight="@dimen/space_10"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/photo_iv"-->
+            <!--android:src="@drawable/camera"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="100dp" />-->
+
+
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_below="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <GridView
+                android:id="@+id/GridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginRight="@dimen/space_10"
+                android:columnWidth="40dp"
+                android:gravity="center"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"></GridView>
+        </FrameLayout>
+    </LinearLayout>
+
+   <!-- <GridView
+        android:layout_below="@+id/head"
+        android:id="@+id/GridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:gravity="center"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"></GridView>-->
+
+    <TextView
+        android:id="@+id/upload_tv"
+        android:background="@color/chengse"
+        android:layout_alignParentBottom="true"
+        android:text="上传"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize_14sp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">零距点</string>
+    <string name="tip_double_click_exit">再次点击退出</string>
+
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">加载中…</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+    <string name="load_more">更多</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+    <string name="new_data_toast_message">有 %d 条更新</string>
+    <string name="new_data_toast_none">没有新更新</string>
+
+    <string name="str_request_camera_message">请求获取相机权限</string>
+ <!--   <string name="pub_tweet_required_camera_tip">在设置-应用-星影星图权限中允许拍摄照片，以正常使用发动弹功能</string>
+    <string name="pub_tweet_required_album_tip">在设置-应用-星影星图权限中允许访问你设备上的照片，以正常使用发动弹功能</string>-->
+
+    <string name="permissions_camera_error">相机无法完成初始化,请正确授权。</string>
+
+    <string name="str_request_map_message">请求获取运行地图的权限</string>
+    <string name="permissions_map_error">无法获得运行权限,请正确授权。</string>
+
+    <string name="register_name_digits">
+        ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ!@#$%^*
+    </string>
+
+    <string name="open_shop">一键开店</string>
+    <string name="my_cache">我的缓存</string>
+    <string name="issue_info">发布信息</string>
+
+    <string name="my_shop">我的店铺</string>
+    <string name="name">昵称</string>
+    <string name="phone">手机</string>
+
+    <string name="edit_pwd">修改密码</string>
+    <string name="upload_data">上传资料</string>
+    <string name="open_pu">一键开铺</string>
+
+    <string name="upload_id">上传正面身份证</string>
+    <string name="upload_business">上传营业执照</string>
+    <string name="open_health">上传卫生许可证</string>
+
+    <string name="uesr_name">真实姓名</string>
+    <string name="telephone">联系电话</string>
+    <string name="code">验证码</string>
+
+    <string name="company_address">公司地址</string>
+    <string name="company_name">公司名称</string>
+    <string name="submit_data">提交资料审核</string>
+    <string name="get_code">获取验证码</string>
+
+    <string name="id">身份证</string>
+    <string name="business">营业执照</string>
+    <string name="health">卫生许可证</string>
+    <string name="audit">审核中</string>
+
+    <string name="aboutme">    深圳市洋帆网络科技有限公司，位于深圳市宝安区福永街道凤凰第一工业区岭北五路13栋4楼，拥有60人的优秀团队（软件开发20人，硬件开发15人，营运25人）许可经营范围：网络技术服务、网络广告推广、网络多媒体推广、网络维护、网络产品的技术开发及技术转让，网络技术咨询，系统集成、基础软件服务、应用软件服务、电信增值业务、计算机技术的开发、经营电子商务。   实现：A．用户数据采集 B．APP为窗口进行各项功能应用（如：影视推广、广告的推广） C．无线有线网络工程施工及硬件应用。</string>
+
+    <!--环信-->
+    <string name="delete_contact">删除联系人</string>
+    <string name="at_your_in_group">%s在群聊中@了你</string>
+    <string name="call_version_inconsistent">通话协议版本不一致</string>
+    <string name="refuse">拒绝</string>
+    <string name="invite_join_group">邀请加入群：</string>
+    <string name="accept_join_group">同意加入群：</string>
+    <string name="refuse_join_group">拒绝加入群：</string>
+    <string name="Are_agree_with">正在同意...</string>
+    <string name="Are_refuse_with">正在拒绝...</string>
+    <string name="Refuse_with_failure">拒绝失败:</string>
+    <string name="join_need_owner_approval">加入公开群需要群主同意</string>
+    <string name="group_nick">聊天室名称:</string>
+    <string name="group_owner">群主：</string>
+    <string name="serach_group_message">消息搜索</string>
+    <string name="messages_are_empty">聊天记录已被清空</string>
+    <string name="em_user_remove">此用户已被移除</string>
+    <string name="user_forbidden">用户被服务器限制连接</string>
+
+    <!---->
+</resources>

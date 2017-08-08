@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_header" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:text="@string/uesr_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/name_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="true"
+                    android:hint="岑小溪"
+                    android:singleLine="true"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginLeft="90dp"
+                android:background="@color/tiao" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:text="@string/telephone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/phone_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="true"
+                    android:hint=""
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginLeft="90dp"
+                android:background="@color/tiao" />
+
+            <LinearLayout
+                android:id="@+id/cpy_name_ly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:text="@string/company_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/company_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="true"
+                    android:hint="小溪科技"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/one_v"
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginLeft="90dp"
+                android:background="@color/tiao" />
+
+            <LinearLayout
+                android:id="@+id/cpy_ads_ly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:text="@string/company_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/company_address"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="true"
+                    android:hint="深圳龙华"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/two_v"
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginLeft="90dp"
+                android:background="@color/tiao" />
+
+            <LinearLayout
+                android:id="@+id/family_ly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:text="家庭地址"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+                <EditText
+                    android:id="@+id/family_address"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:focusable="true"
+                    android:hint="深圳龙华"
+                    android:textColorHint="@color/qianhuise"
+                    android:textSize="@dimen/fontsize_14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/three_v"
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginLeft="90dp"
+                android:background="@color/tiao" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_20"
+                android:gravity="center"
+                android:text="身份证"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <ImageView
+                android:id="@+id/id_iv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_49"
+                android:layout_marginRight="@dimen/space_49"
+                android:layout_marginTop="@dimen/space_12"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video" />
+
+            <TextView
+                android:id="@+id/business_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_12"
+                android:gravity="center"
+                android:text="营业执照"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <ImageView
+                android:id="@+id/business_iv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_49"
+                android:layout_marginRight="@dimen/space_49"
+                android:layout_marginTop="@dimen/space_12"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video" />
+
+            <TextView
+                android:id="@+id/health_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_12"
+                android:gravity="center"
+                android:text="卫生许可证"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <ImageView
+                android:id="@+id/health_iv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_49"
+                android:layout_marginRight="@dimen/space_49"
+                android:layout_marginTop="@dimen/space_12"
+                android:scaleType="centerCrop"
+                android:src="@drawable/video" />
+
+            <Button
+                android:id="@+id/submit_bt"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="@dimen/space_30"
+                android:layout_marginLeft="@dimen/space_49"
+                android:layout_marginRight="@dimen/space_49"
+                android:layout_marginTop="@dimen/space_30"
+                android:background="@drawable/button_hui"
+                android:text="审核中"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_14sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

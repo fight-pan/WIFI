@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/locate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/locateHint"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:text="定位城市"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:background="@color/tiao"
+        android:layout_below="@+id/locateHint"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <TextView
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_below="@id/locateHint"
+            android:id="@+id/lng_city"
+            android:layout_width="80dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_hui_kong"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/huise"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/pbLocate"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="64dip"
+        android:layout_marginTop="13dp" />
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="90dp"
+        android:background="#E2E2E2" />-->
+
+</RelativeLayout>

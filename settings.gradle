@@ -1,0 +1,1 @@
+include ':app', ':swiperefreshloadlistview', ':citylistview', ':takephoto_library', ':autoupdate', ':easeui', ':testjar', ':multi-image-selector'

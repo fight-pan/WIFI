@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_header" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_30"
+                android:text="上传正面身份证"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_30"
+                android:layout_marginRight="@dimen/space_30"
+                android:layout_marginTop="@dimen/space_10">
+
+               <!-- <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />-->
+
+                <ImageView
+                    android:id="@+id/id_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/identity_bg" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/business_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="上传营业执照"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <RelativeLayout
+                android:id="@+id/business_rly"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_30"
+                android:layout_marginRight="@dimen/space_30"
+                android:layout_marginTop="@dimen/space_10">
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />-->
+
+                <ImageView
+                    android:id="@+id/business_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/identity_bg" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/health_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="上传卫生许可证"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fontsize_14sp" />
+
+            <RelativeLayout
+                android:id="@+id/health_rly"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/space_30"
+                android:layout_marginRight="@dimen/space_30"
+                android:layout_marginTop="@dimen/space_10">
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />-->
+
+                <ImageView
+                    android:id="@+id/health_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/identity_bg" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/upload_bt"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="@dimen/space_30"
+                android:background="@drawable/button_selector"
+                android:text="上传资料"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_20"
+                android:layout_marginLeft="@dimen/space_35"
+                android:layout_marginRight="@dimen/space_35"
+                android:layout_marginTop="@dimen/space_30"
+                android:gravity="center"
+                android:text="平台承诺将不会在任何公开场合使用您的资料,资料仅用于审核" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

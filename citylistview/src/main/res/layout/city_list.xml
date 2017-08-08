@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" 
+        android:focusable="true"  
+            android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/backlay"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+              android:layout_centerVertical="true"
+              android:gravity="center"
+            android:paddingLeft="15dp" >
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_lan"
+                android:paddingLeft="16.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/curren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="当前城市-深圳"
+            android:textColor="#000000"
+            android:textSize="17.0dip" />
+    </RelativeLayout>
+
+    <LinearLayout 
+         android:layout_width="fill_parent"
+        android:layout_height="35dp"
+         android:background="@drawable/bord_sea"
+         android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dip"
+        >
+        
+        <com.quark.citylistview.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:background="#00000000"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:drawablePadding="5dp"
+        android:hint="请输入城市名"
+        android:singleLine="true"
+        android:textSize="15.0dip" 
+        />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.quark.citylistview.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="66.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+</LinearLayout>

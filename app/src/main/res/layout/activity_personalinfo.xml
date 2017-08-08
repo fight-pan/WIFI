@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/main_header"/>
+
+    
+    <TextView
+        android:id="@+id/ren_tv"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/renzheng"
+        android:textColor="@color/chengse"
+        android:text="当前身份是普通会员,点击成为认证商家"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_35" />
+
+    <LinearLayout
+        android:id="@+id/icon_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:background="@drawable/common_tab_bg"
+        android:orientation="horizontal">
+
+        <com.quark.wificontrol.ui.widget.CircularImage
+            android:id="@+id/pic_iv"
+            android:layout_marginTop="@dimen/space_12"
+            android:layout_marginBottom="@dimen/space_12"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="@dimen/space_15"
+            android:src="@drawable/avatar_s" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="点击修改头像"
+            android:textSize="@dimen/fontsize_14sp"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/qianhuise" />
+
+    <LinearLayout
+        android:id="@+id/icon_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:background="@drawable/common_tab_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textSize="@dimen/fontsize_14sp"
+            />
+
+        <TextView
+            android:id="@id/name_tv"
+            android:text=""
+            android:textSize="@dimen/fontsize_14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_5"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/qianhuise" />
+
+    <LinearLayout
+        android:id="@+id/icon_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:background="@drawable/common_tab_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="手机"
+            android:textSize="@dimen/fontsize_14sp"
+            />
+
+        <TextView
+            android:id="@+id/phone_tv"
+            android:textSize="@dimen/fontsize_14sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/qianhuise" />
+
+    <LinearLayout
+        android:id="@+id/icon_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:background="@drawable/common_tab_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="@string/edit_pwd"
+            android:textSize="@dimen/fontsize_14sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/qianhuise" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/out_bt"
+            android:layout_centerInParent="true"
+            android:background="@drawable/out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

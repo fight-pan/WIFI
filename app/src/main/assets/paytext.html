@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+
+    <script type="text/javascript">
+function display_alert(resultStr)
+  {
+  alert(resultStr)
+  }
+  function paySuccess(resultStr)
+  {
+  alert(resultStr)
+  }
+  
+</script>
+</head>
+<body onload="javascript:contact.showcontacts()">
+<input type="button" onclick="display_alert('按钮测试')" value="Display alert box" />
+
+<input type="button" onclick="javascript:android.toPay('wx40dcf120f203fdcb','1402023302','wx20161206171727a209328b480267055381','Sign=WXPay','kx6kPuLK755naNy65sdlhocOO7jLtrbL','1481015847','F884E8CE325C63C3A6E286B6F389521D')" value="toWeixinPay" />
+</body>
+</html>
